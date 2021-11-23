@@ -9,7 +9,7 @@ const Index = ()=>{
     return (
         <ChurchLayout pageTitle="Library">
         <Row>
-            <Col md={24}>
+            <Col md={24} sm={24}>
                 <Materials />
             </Col>
         </Row>

@@ -101,3 +101,9 @@
     color: #ea5455!important;
     background-color: rgba(234,84,85,.12)
 }
+
+@media screen and (max-width:480px){
+    .ant-card{
+        width: 100%;
+    }
+}

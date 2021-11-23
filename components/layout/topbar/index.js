@@ -20,6 +20,7 @@ const Head = ({title})=>{
                </div>
            </nav>
         </Header>
+      
     )
 }
 
