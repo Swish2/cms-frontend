@@ -54,9 +54,9 @@ const members = data?.getAllMember?.map(({firstName,lastName,id})=>({label:first
                         options={[
                             {label:"Admin",value:"ADMIN"},
                             {label:"Cell Manager",value:"CELL_MANAGER"},
-                            {label:"Finance",value:"FINANCE"},
-                            {label:"Foundation School",value:"FOUNDATION_SCHOOL"},
-                            {label:"Media",value:"MEDIA"},
+                            // {label:"Finance",value:"FINANCE"},
+                            // {label:"Foundation School",value:"FOUNDATION_SCHOOL"},
+                            // {label:"Media",value:"MEDIA"},
                             ]}/>
                     </Item>
                     <Item>
