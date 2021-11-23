@@ -1,0 +1,30 @@
+.header{
+    position: sticky;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    top: 0;
+    line-height: 0;
+    background-color: #f9f9f9;   
+    padding-left: 298px;
+    padding-right: 10px;
+    nav{
+        display: flex;
+        
+        height:50px;
+        justify-content: space-between;
+
+        div{
+            height:100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .header{
+        padding-left: 10px;
+    }
+}

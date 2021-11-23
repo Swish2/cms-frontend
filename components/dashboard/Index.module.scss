@@ -1,0 +1,24 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.item_wrapper{
+    width:180px;
+    text-align:center;
+
+    p{
+        margin:0 !important;
+        font-size:1.5rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .wrap{
+        flex-direction: column;
+    }
+    .item_wrapper{
+        width:100%;
+    }
+}

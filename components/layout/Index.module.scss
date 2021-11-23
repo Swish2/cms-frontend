@@ -1,0 +1,18 @@
+.content{
+    padding-top:20px;
+    height: 100%;
+    padding-left: 298px;
+    padding-right: 10px;
+    background-color: #f9f9f9;
+}
+
+.layout{
+    height: 100%;
+    
+}
+
+@media screen and (max-width:480px) {
+    .content{
+        padding-left: 10px;
+    }
+}

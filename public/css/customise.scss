@@ -1,0 +1,103 @@
+.ant-btn{
+    border-radius: 8px;
+    min-width: 8rem;
+    height: 35px;
+}
+
+.ant-btn-primary{
+    background-color: $primary;
+    border-color: $primary;
+
+}
+
+.ant-btn-ghost{
+    border-color: $primary;
+    color:$primary;
+
+    &:hover{
+        color: #fff;
+        border-color:transparent;
+        background-color: $primary;
+    }
+}
+
+.ant-card{
+    box-shadow: 0 4px 10px rgba(0,0,0,.03)!important;
+    border-radius: 16px;
+    border:none;
+}
+
+.ant-menu{
+    border:none;
+}
+
+.ant-menu-item{
+    color:#fff;
+    display: flex;
+    align-items: center;
+
+    a{
+        color:#fff;
+    }
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected,.ant-menu-item-active{
+    color: #fff;
+    border-radius: 10px;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,.03)!important;
+
+    a{
+        color:#fff;
+    }
+}
+
+.ant-picker{
+    width:100%;
+}
+
+.ant-picker,.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled),.ant-select:not(.ant-select-customize-input) .ant-select-selector,.ant-input,.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector{
+    border-radius: 8px;
+}
+
+.ant-modal-header{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.ant-modal-content{
+    border-radius: 8px;
+}
+
+.status{
+    border-radius: 10rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.status-success{
+    color: #28c76f!important;
+    background-color: rgba(40,199,111,.12);
+}
+
+.status-error{
+    color: #ff9f43!important;
+    background-color: rgba(255,159,67,.12);
+}
+
+.status-inactive{
+    color: #82868b!important;
+    background-color: rgba(130,134,139,.12);
+}
+.status-shade1{
+    color: #00cfe8!important;
+    background-color: rgba(0,207,232,.12)
+}
+.status-shade2{
+    color: #ea5455!important;
+    background-color: rgba(234,84,85,.12)
+}
