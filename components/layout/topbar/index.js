@@ -2,7 +2,7 @@ import React from "react"
 import { Layout,Menu,Row,Col } from "antd"
 import style from './Index.module.scss'
 import { User,Tool,Bell,LogOut } from "react-feather";
-
+import Router from 'next/router'
 
 const {Header} = Layout
 
@@ -30,11 +30,16 @@ export default Head
 
 const HorizonalMenu = ()=>{
 
+        const handleLogout = ()=>{
+            localStorage.removeItem("token")
+            Router.replace("/")
+        }
+
     return(
         <>
         <ul className="horizonal-menu-custom">
             {/* <Notification /> */}
-            <li><LogOut /></li>
+            <li><LogOut onClick={()=>handleLogout()}/></li>
         </ul>
 
         <style jsx>{`
@@ -45,7 +50,7 @@ const HorizonalMenu = ()=>{
                 gap:30px;
                 color: #4e4e4e;
                 padding-top:10px;
-                padding-right:20px;
+                padding-right:10px;
             }
 
             .horizonal-menu-custom li{
