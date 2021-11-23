@@ -17,9 +17,6 @@ const WithAuth = (OriginalComponent)=>{
             Router.replace("/")
             return <></>
         }
-
-        document.body.classList.add('dark-mode');
-
         return <OriginalComponent {...data?.getMyProfile}/>
     }
 
