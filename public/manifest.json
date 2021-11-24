@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "LZ3 CHURCH MANAGEMENT SYSTEM",
-    "description": "This app help churches manage their data",
+    "name": "LZ3 CMS",
     "short_name": "CMS",
+    "description": "This app help churches manage their data",
     "icons": [
         {
             "src": "/icon-192x192.png",
