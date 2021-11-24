@@ -1,0 +1,32 @@
+{
+    "theme_color": "#1082c1",
+    "background_color": "#1082c1",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "LZ3 CHURCH MANAGEMENT SYSTEM",
+    "description": "This app help churches manage their data",
+    "short_name": "CMS",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
