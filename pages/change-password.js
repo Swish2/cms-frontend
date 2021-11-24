@@ -1,15 +1,14 @@
 import React from "react";
 import { Button,Card } from "antd";
 import ChangePassword from '../components/auth/changePassword'
-
+import AuthLayout from '../components/layout/auth'
 
 const Index = ()=>{
 
     return(
-       <div className="container">
+       <AuthLayout>
            <ChangePassword />
-           <p className="text-muted">Product of CELZ3 IT &amp; Data Service Department</p>
-       </div>
+       </AuthLayout>
     )
 }
 

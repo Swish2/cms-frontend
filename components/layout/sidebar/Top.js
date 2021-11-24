@@ -17,8 +17,8 @@ const Index =()=>{
 
     return(
         <>
-        <div className={style.topbar}>
-           
+        <div className={style.topbar} style={{display:"flex", justifyContent:"center", marginBottom:50}}>
+           <img src="/img/logo.png"/>
         </div>
         <Profile />
         </>
