@@ -30,6 +30,7 @@ export const ChurchSidebar = ()=>{
                    info?.role == "ADMIN" ?
                    <Item icon={<Box size={18}/>} key="cells"><Link href="/account/cells"><a>Cells</a></Link></Item>:null
                }
+                <Item icon={<Film size={18}/>} key="materials"><Link href="/account/live"><a>Livestream</a></Link></Item>
                 <Item icon={<Book size={18}/>} key="materials"><Link href="/account/materials"><a>Library</a></Link></Item>
                 <Item icon={<Tool size={18}/>} key="settings"><Link href="/account/settings"><a>Settings</a></Link></Item>
             </Menu>
